@@ -107,6 +107,7 @@ def main():
     df.to_csv(output_path, index=False)
 
     logger.info(f"Updated DataFrame saved to {output_path}")
+    
 
 if __name__ == "__main__":
     main()
